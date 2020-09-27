@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  twitter-service:
+    build: .
+    volumes:
+      - .:/TwitterCollection
+      - ./log:/TwitterCollection/log
+#    stdin_open: true
+#    tty: true

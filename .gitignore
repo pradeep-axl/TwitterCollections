@@ -1,0 +1,13 @@
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+*/__pycache__/*
+__pycache__/*
+*.py[cod]
+.vscode/.ropeproject/objectdb
+*.log
+.pytest_cache/
+.vscode/
+.idea/
+/secrets/
+/output/
